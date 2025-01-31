@@ -18,7 +18,7 @@ FROM debian:bullseye-slim
 RUN apt-get update && apt-get install -y libc6 && rm -rf /var/lib/apt/lists/*
 
 # Copy the compiled binary from the builder image
-COPY --from=builder /usr/src/calculator/target/release/calculator /usr/local/bin/
+COPY --from=builder /usr/src/calculator/target/debug/calculator /usr/local/bin/
 
 # Set the default command
 ENTRYPOINT ["/usr/local/bin/calculator"]
