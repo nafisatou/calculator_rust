@@ -17,8 +17,12 @@ FROM debian:latest
 RUN apt-get update && apt-get install -y libc6 && rm -rf /var/lib/apt/lists/*
 
 # Copy the compiled binary from the builder image
+<<<<<<< HEAD
 COPY --from=builder /app/target/release/calculator /app/calculator
 
+=======
+COPY --from=builder /usr/src/calculator/target/debug/calculator /usr/local/bin/
+>>>>>>> 2b5e317ff40becd973c024cb82ec871a49dba05b
 
 # Set the default command
 CMD ["/app/calculator"]
