@@ -9,7 +9,7 @@ Operations Supported:
 + : Addition
 - : Subtraction
 * : Multiplication
-/ : Division
+/ : Division    
 % : Modulus
 ^ : Exponentiation
 
