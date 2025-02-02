@@ -37,6 +37,8 @@ History: [15]
 # firstly i have my dockerfile
 
 #then i run this command to build it into the working directory 
+
+
 ```docker build -t calc .```
 
 #the i modified my dockerfile and run this command and put app as the depencies>
