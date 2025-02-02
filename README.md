@@ -3,7 +3,7 @@ A command-line calculator that supports both single and multiple operations. The
 
 Features:
 Single operation calculation (e.g., 5 + 3).
-Multiple operations in a sequence (e.g., 10 + 5 * 2).
+Multiple operations in a sequence (e.g., 10 + 5 * 2).  
 Keeps track of the calculation history.
 Operations Supported:
 + : Addition
